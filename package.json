@@ -5,8 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "jest": "^22.0.4",
-    "nightmare": "^2.10.0",
-    "node-gyp": "^3.6.2"
+    "nightmare": "^2.10.0"
   },
   "devDependencies": {},
   "scripts": {
