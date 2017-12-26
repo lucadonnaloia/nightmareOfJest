@@ -1,0 +1,25 @@
+{
+  "name": "nightmareofjest",
+  "version": "1.0.0",
+  "description": "Trying nightmare with jest for automated tests.",
+  "main": "index.js",
+  "dependencies": {
+    "jest": "^22.0.4",
+    "nightmare": "^2.10.0",
+    "node-gyp": "^3.6.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucadonnaloia/nightmareOfJest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucadonnaloia/nightmareOfJest/issues"
+  },
+  "homepage": "https://github.com/lucadonnaloia/nightmareOfJest#readme"
+}
