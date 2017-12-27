@@ -4,18 +4,28 @@
   "description": "Trying nightmare with jest for automated tests.",
   "main": "index.js",
   "dependencies": {
-    "jest": "^22.0.4",
-    "nightmare": "^2.10.0"
+    "nightmare": "latest"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@types/jest": "^21.1.9",
+    "eslint": "^4.14.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-google": "^0.9.1",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "jest": "^22.0.4"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lucadonnaloia/nightmareOfJest.git"
   },
-  "author": "",
+  "author": "Luca Donnaloia",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/lucadonnaloia/nightmareOfJest/issues"
