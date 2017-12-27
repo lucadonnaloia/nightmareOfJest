@@ -2,6 +2,7 @@ const Nightmare = require('nightmare');
 
 describe('When visiting the homepage', function () {
   test('it should have "Google" as title', async function () {
+    jest.useRealTimers();
     let page = Nightmare({ show: true })
       .goto('http://www.google.it');
     let text = await page.evaluate(() => document.title)
