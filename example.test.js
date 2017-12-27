@@ -1,9 +1,7 @@
 const Nightmare = require('nightmare');
+const timeout = 60000;
 
 describe('When visiting google homepage', () => {
-  beforeAll(() => {
-    jest.setTimeout(20000);
-  });
   test('should return "Google" as page title', (done) => {
     Nightmare({show: true})
       .goto('http://www.google.it')
@@ -13,13 +11,10 @@ describe('When visiting google homepage', () => {
         expect(title).toBe('Google');
         done();
       });
-  });
+  }, timeout);
 });
 
 describe('When visiting duckduckgo homepage', () => {
-  beforeAll(() => {
-    jest.setTimeout(20000);
-  });
   test('should find the nightmare github link first', (done) => {
     Nightmare({show: true})
       .goto('https://duckduckgo.com')
@@ -34,5 +29,5 @@ describe('When visiting duckduckgo homepage', () => {
         expect(link).toBe('https://github.com/segmentio/nightmare');
         done();
       });
-  });
+  }, timeout);
 });
