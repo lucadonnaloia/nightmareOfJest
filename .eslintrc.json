@@ -1,0 +1,16 @@
+{
+    "extends": "standard",
+    "rules": {
+        "semi": [2, "always"]
+    },
+    "globals": {
+        "describe": false,
+        "it": false,
+        "test": false
+    },
+    "env": {
+        "jest": true,
+        "node": true,
+        "mocha": true
+    }
+}
